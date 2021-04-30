@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AdvanceCalculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">first-project</a> &gt; <a href="index.source.html" class="el_package">com.assigment.maven.first_project</a> &gt; <span class="el_source">AdvanceCalculator.java</span></div><h1>AdvanceCalculator.java</h1><pre class="source lang-java linenums">package com.assigment.maven.first_project;
+
+<span class="fc" id="L3">public class AdvanceCalculator extends BasicCalculator implements AdvanceOperation {</span>
+
+	@Override
+	public double square(double firstnumber) {
+<span class="fc" id="L7">		double square = firstnumber * firstnumber;</span>
+<span class="fc" id="L8">		System.out.println(&quot;The square of the number: &quot;+ square);</span>
+<span class="fc" id="L9">		return square;</span>
+	}
+
+	@Override
+	public double root(double firstnumber) {
+<span class="fc" id="L14">		double sqroot = Math.sqrt(firstnumber);</span>
+<span class="fc" id="L15">		System.out.println(&quot;The square Root of the number: &quot;+ sqroot);</span>
+<span class="fc" id="L16">		return sqroot;</span>
+	}
+
+	@Override
+	public double cuberoot(double firstnumber) {
+<span class="fc" id="L21">		double cqroot = Math.cbrt(firstnumber);</span>
+<span class="fc" id="L22">		System.out.println(&quot;The cube Root of the number: &quot;+ cqroot);</span>
+<span class="fc" id="L23">		return cqroot;</span>
+		
+	}
+
+	@Override
+	public double cube(double firstnumber) {
+<span class="fc" id="L29">		double cube = firstnumber * firstnumber * firstnumber;</span>
+<span class="fc" id="L30">		System.out.println(&quot;The cube of the number: &quot;+ cube);</span>
+<span class="fc" id="L31">		return cube;</span>
+		
+	}
+
+	@Override
+	public double log(double firstnumber) {
+<span class="nc" id="L37">		double log = Math.log(firstnumber);</span>
+<span class="nc" id="L38">		System.out.println(&quot;The Log of the number: &quot;+ log);</span>
+<span class="nc" id="L39">		return log;</span>
+	}
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

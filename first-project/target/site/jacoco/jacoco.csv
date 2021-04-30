@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+first-project,com.assigment.maven.first_project,App,21,0,0,0,6,0,2,0,2,0
+first-project,com.assigment.maven.first_project,BasicCalculator,0,67,0,0,0,13,0,5,0,5
+first-project,com.assigment.maven.first_project,AdvanceCalculator,15,67,0,0,3,13,1,5,1,5
