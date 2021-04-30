@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tester Hotel
 
 ### Run the project for testing
@@ -40,3 +41,9 @@ X-User-Auth: {"username":"tester01","token":"4230d922ca04ca2c2e908821021ac105"}
 
 To see the available API endpoints, look in `/server/api.js`
 The paths found here must be prefixed with `http://localhost:3000/api`
+=======
+# 02-pass-shiprasharma
+# This repository contain first project of second assignment.
+# The report of project is available at first-project/target/site/jacoco/index.html.
+# Added refactored Test cases.
+>>>>>>> c264a78e9fd8967a1729117c9aa83821f9955eb3
